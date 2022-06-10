@@ -24,8 +24,8 @@ git clone https://github.com/SabrinaMonoSoraka/backdoor-apk
 chmod +x setup.py && python setup.py
 ```
 
-<p>3 - start main.py with <b>original apk</b></p>
+<p>3 - start <b>main.py</b> with <b>original apk</b></p>
 
 ```
-chmod +x setup.py && python setup.py
+python main.py example.apk
 ```

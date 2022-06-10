@@ -11,15 +11,21 @@
 - OpenJDK 8/11
 
 # Commands
+
 <p>1 - Clone Project</p>
+
 ```
 git clone https://github.com/SabrinaMonoSoraka/backdoor-apk
 ```
+
 <p>2 - start setup.py</p>
+
 ```
 chmod +x setup.py && python setup.py
 ```
+
 <p>3 - start main.py with <b>original apk</b></p>
+
 ```
 chmod +x setup.py && python setup.py
 ```

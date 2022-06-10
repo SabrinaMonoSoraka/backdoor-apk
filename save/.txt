@@ -1,0 +1,3 @@
+Your apk will be saved in these folder.
+
+Recommend using rooted Android.

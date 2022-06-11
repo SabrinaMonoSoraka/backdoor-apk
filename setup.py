@@ -19,17 +19,6 @@ def color(string, color=None):
         elif color.lower() == "yellow":
             attr.append('33')
         return '\x1b[%sm%s\x1b[0m' % (';'.join(attr), string)
-def arquivo(filename, old_string, new_string):
-    with open(filename) as f:
-        s = f.read()
-        if old_string not in s:
-            print 'erro'.format(**locals())
-            
-    
-    with open(filename, 'w') as f:
-        s = s.replace(old_string, new_string)
-        f.write(s)
-
 
 def hours():
     os.system("clear")
